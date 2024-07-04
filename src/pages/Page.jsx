@@ -12,12 +12,12 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { useParams } from "react-router";
-import ExploreContainer from "../components/ExploreContainer";
+import ExploreContainer from '../components/ExploreContainer';
 import "./Page.css";
 import { call, camera, home } from "ionicons/icons";
 
-const Page: React.FC = () => {
-  const { name } = useParams<{ name: string }>();
+const Page = () => {
+  const { name } = useParams();
 
   return (
     <IonPage>

@@ -37,7 +37,7 @@ import { call, camera, home } from 'ionicons/icons';
 
 setupIonicReact();
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <IonApp>
       <IonReactRouter>
